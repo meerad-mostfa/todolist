@@ -1,0 +1,52 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.contanier
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    }
+    
+
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width:500px;
+    height: 500px;
+    background-color:aquamarine;
+    border-radius: 5px;
+}
+.h2
+{
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ListTask{
+    width: 100%;
+ 
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 30px;
+}
+.test{
+    flex-grow: 1;
+   
+}
+
+ .Tist{
+    padding: 10px 10px;
+    margin-left: 0;
+    height: 400px;
+ }
+ span{
+    font-size: larger;
+ }
+
+ 
